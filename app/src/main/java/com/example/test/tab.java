@@ -13,14 +13,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import com.example.test.ui.main.SectionsPagerAdapter;
 
 public class tab extends AppCompatActivity {
     final int[] icons= new int[]{
-      R.drawable.gallery,R.drawable.profile,R.drawable.search
+      R.drawable.gallery,R.drawable.profile,R.drawable.search,R.drawable.profile
     };
 
+    public TextView tv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +48,5 @@ public class tab extends AppCompatActivity {
             }
         });
 
-
-    }
+      }
 }

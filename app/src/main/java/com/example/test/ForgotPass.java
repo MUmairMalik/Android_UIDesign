@@ -25,6 +25,8 @@ public class ForgotPass extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder b=new AlertDialog.Builder(ForgotPass.this);
+
+
                 b.setTitle("Password has been reset!");
                 b.setMessage("Your new password is 12345.");
                 b.setNegativeButton("OK", new DialogInterface.OnClickListener() {
