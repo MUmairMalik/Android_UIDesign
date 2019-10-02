@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/doggo"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="130dp"
+        android:src="@drawable/bean" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doggo"
+        android:id="@+id/i1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:src="@drawable/person"></ImageView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/doggo"
+        android:id="@+id/t1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginRight="216dp"
+        android:gravity="center"
+        android:text=":      Chulbul Panday"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:id="@+id/i2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:src="@drawable/callme"></ImageView>
+
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/t1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginRight="218dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text=":      03211234567"></TextView>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/t2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginRight="198dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text=":        mrbean@gmail.com"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i2"
+        android:id="@+id/i3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:src="@drawable/mail"></ImageView>
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/t3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginRight="241dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text=":        Food lover"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i3"
+        android:id="@+id/i4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:src="@drawable/bio"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i4"
+        android:id="@+id/i5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:src="@drawable/gender"></ImageView>
+
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginRight="241dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="Male"></TextView>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="259dp"
+        android:layout_marginRight="259dp"
+        android:checked="true" />
+
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="Female"></TextView>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp" />
+
+
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+
